@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">بشمقاول</string>
+    <string name="app_name_en">Bashmaqawa</string>
+    
+    <!-- Login Screen -->
+    <string name="login_title">تسجيل الدخول</string>
+    <string name="login_subtitle">نظام إدارة المقاولات</string>
+    <string name="username_hint">اسم المستخدم</string>
+    <string name="password_hint">كلمة المرور</string>
+    <string name="login_button">دخول</string>
+    <string name="remember_me">تذكرني</string>
+    <string name="forgot_password">نسيت كلمة المرور؟</string>
+    <string name="login_error">اسم المستخدم أو كلمة المرور غير صحيحة</string>
+    <string name="biometric_prompt_title">تسجيل الدخول بالبصمة</string>
+    <string name="biometric_prompt_subtitle">استخدم بصمتك للدخول</string>
+    
+    <!-- Setup / Onboarding -->
+    <string name="setup_title">إعداد حساب المسؤول</string>
+    <string name="setup_button">إنشاء الحساب ودخول</string>
+    <string name="setup_error_empty">يرجى تعبئة جميع الحقول</string>
+    <string name="setup_error_generic">حدث خطأ أثناء إنشاء الحساب: %1$s</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_calendar">التقويم</string>
+    <string name="nav_workforce">العمالة</string>
+    <string name="nav_projects">المشاريع</string>
+    <string name="nav_financial">المالية</string>
+    <string name="nav_analytics">التحليلات</string>
+    <string name="nav_chat">المساعد</string>
+    <string name="nav_settings">الإعدادات</string>
+    
+    <!-- Home Screen -->
+    <string name="home_greeting">مرحباً</string>
+    <string name="active_projects">المشاريع النشطة</string>
+    <string name="total_workers">إجمالي العمال</string>
+    <string name="today_expenses">مصروفات اليوم</string>
+    <string name="monthly_income">إيرادات الشهر</string>
+    <string name="quick_actions">إجراءات سريعة</string>
+    <string name="record_attendance">تسجيل الحضور</string>
+    <string name="add_expense">إضافة مصروف</string>
+    <string name="add_worker">إضافة عامل</string>
+    <string name="new_project">مشروع جديد</string>
+    
+    <!-- Calendar Screen -->
+    <string name="calendar_title">التقويم</string>
+    <string name="view_day">يوم</string>
+    <string name="view_week">أسبوع</string>
+    <string name="view_month">شهر</string>
+    <string name="attendance_present">حاضر</string>
+    <string name="attendance_absent">غائب</string>
+    <string name="attendance_half_day">نصف يوم</string>
+    <string name="attendance_overtime">إضافي</string>
+    
+    <!-- Workforce Screen -->
+    <string name="workforce_title">إدارة العمالة</string>
+    <string name="worker_active">نشط</string>
+    <string name="worker_archived">مؤرشف</string>
+    <string name="worker_name">اسم العامل</string>
+    <string name="worker_role">الدور</string>
+    <string name="worker_daily_rate">الأجر اليومي</string>
+    <string name="worker_phone">رقم الهاتف</string>
+    <string name="worker_national_id">الرقم القومي</string>
+    <string name="worker_skill_level">مستوى المهارة</string>
+    <string name="skill_helper">عامل</string>
+    <string name="skill_skilled">صنايعي</string>
+    <string name="skill_master">أسطى</string>
+    <string name="worker_advances">السلف</string>
+    <string name="worker_deductions">الخصومات</string>
+    <string name="time_capsule">الكشف المالي</string>
+    <string name="add_advance">إضافة سلفة</string>
+    <string name="add_deduction">إضافة خصم</string>
+    
+    <!-- Projects Screen -->
+    <string name="projects_title">المشاريع</string>
+    <string name="project_name">اسم المشروع</string>
+    <string name="client_name">اسم العميل</string>
+    <string name="project_location">الموقع</string>
+    <string name="project_area">المساحة (م²)</string>
+    <string name="price_per_meter">سعر المتر</string>
+    <string name="project_status">حالة المشروع</string>
+    <string name="status_pending">قيد الانتظار</string>
+    <string name="status_active">جاري</string>
+    <string name="status_completed">مكتمل</string>
+    <string name="status_paused">متوقف</string>
+    
+    <!-- Financial Screen -->
+    <string name="financial_title">الإدارة المالية</string>
+    <string name="accounts">الحسابات</string>
+    <string name="transactions">المعاملات</string>
+    <string name="income">إيرادات</string>
+    <string name="expense">مصروفات</string>
+    <string name="cash_box">الخزنة</string>
+    <string name="bank_account">حساب بنكي</string>
+    <string name="e_wallet">محفظة إلكترونية</string>
+    <string name="deposit">إيداع</string>
+    <string name="withdraw">سحب</string>
+    
+    <!-- Financial Dashboard -->
+    <string name="financial_net_worth">صافي القيمة</string>
+    <string name="financial_assets">الأصول</string>
+    <string name="financial_liabilities">الخصوم</string>
+    <string name="financial_cash_flow">التدفق النقدي</string>
+    <string name="financial_this_month">هذا الشهر</string>
+    <string name="financial_new_expense">مصروف</string>
+    <string name="financial_transfer">تحويل</string>
+    <string name="financial_new_income">إيراد</string>
+    <string name="financial_report">تقرير</string>
+    <string name="financial_year">سنة</string>
+    <string name="financial_filter_all">الكل</string>
+    <string name="financial_by_project">حسب المشروع</string>
+    <string name="financial_by_worker">حسب العامل</string>
+    <string name="financial_today">اليوم</string>
+    <string name="financial_yesterday">أمس</string>
+    <string name="financial_this_week">هذا الأسبوع</string>
+    <string name="financial_last_week">الأسبوع الماضي</string>
+    <string name="financial_older">أقدم</string>
+    <string name="financial_trend_up">مقارنة بالشهر السابق</string>
+    <string name="financial_analytics">التحليلات</string>
+    <string name="financial_spending_breakdown">توزيع المصروفات</string>
+
+    <!-- Categories -->
+    <string name="category_materials">مواد</string>
+    <string name="category_wages">أجور</string>
+    <string name="category_transport">نقل</string>
+    <string name="category_equipment">معدات</string>
+    <string name="category_other">أخرى</string>
+    
+    <!-- Worker Categories -->
+    <string name="cat_plastering">محارة</string>
+    <string name="cat_plumbing">سباكة</string>
+    <string name="cat_electrical">كهرباء</string>
+    <string name="cat_carpentry">نجارة</string>
+    <string name="cat_welding">حدادة</string>
+    <string name="cat_painting">دهانات</string>
+    <string name="cat_tiling">سيراميك</string>
+    <string name="cat_labor">عامل</string>
+    
+    <!-- Analytics Screen -->
+    <string name="analytics_title">التحليلات</string>
+    <string name="expenses_by_category">المصروفات حسب الفئة</string>
+    <string name="monthly_comparison">مقارنة شهرية</string>
+    <string name="project_performance">أداء المشاريع</string>
+    <string name="profit_loss">الأرباح والخسائر</string>
+    
+    <!-- AI Chat Screen -->
+    <string name="chat_title">المساعد الذكي</string>
+    <string name="chat_placeholder">اكتب سؤالك هنا...</string>
+    <string name="chat_send">إرسال</string>
+    <string name="ai_thinking">جاري التفكير...</string>
+    
+    <!-- Settings Screen -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="company_info">معلومات الشركة</string>
+    <string name="company_name">اسم الشركة</string>
+    <string name="company_logo">شعار الشركة</string>
+    <string name="language">اللغة</string>
+    <string name="currency">العملة</string>
+    <string name="currency_egp">جنيه مصري (ج.م)</string>
+    <string name="dark_mode">الوضع الداكن</string>
+    <string name="backup_restore">النسخ الاحتياطي</string>
+    <string name="create_backup">إنشاء نسخة احتياطية</string>
+    <string name="restore_backup">استعادة نسخة</string>
+    <string name="security">الأمان</string>
+    <string name="change_password">تغيير كلمة المرور</string>
+    <string name="enable_biometric">تفعيل البصمة</string>
+    <string name="factory_reset">إعادة ضبط المصنع</string>
+    <string name="factory_reset_warning">سيؤدي هذا إلى حذف جميع البيانات!</string>
+    
+    <!-- Common -->
+    <string name="save">حفظ</string>
+    <string name="cancel">إلغاء</string>
+    <string name="delete">حذف</string>
+    <string name="edit">تعديل</string>
+    <string name="add">إضافة</string>
+    <string name="search">بحث...</string>
+    <string name="filter">تصفية</string>
+    <string name="export_pdf">تصدير PDF</string>
+    <string name="share">مشاركة</string>
+    <string name="loading">جاري التحميل...</string>
+    <string name="no_data">لا توجد بيانات</string>
+    <string name="error">حدث خطأ</string>
+    <string name="success">تمت العملية بنجاح</string>
+    <string name="confirm">تأكيد</string>
+    <string name="today">اليوم</string>
+    <string name="date">التاريخ</string>
+    <string name="amount">المبلغ</string>
+    <string name="description">الوصف</string>
+    <string name="reason">السبب</string>
+    <string name="total">الإجمالي</string>
+    <string name="net">الصافي</string>
+    
+    <!-- Account Detail Screen -->
+    <string name="account_detail_title">تفاصيل الحساب</string>
+    <string name="current_balance">الرصيد الحالي</string>
+    <string name="available_balance">الرصيد المتاح</string>
+    <string name="pending_balance">الرصيد المعلق</string>
+    <string name="transaction_history">سجل المعاملات</string>
+    <string name="journal_entries">قيود اليومية</string>
+    <string name="analytics">التحليلات</string>
+    <string name="related_entities">الكيانات المرتبطة</string>
+    <string name="add_income">إضافة إيراد</string>
+    <string name="transfer">تحويل</string>
+    <string name="generate_statement">كشف حساب</string>
+    <string name="total_inflow">إجمالي الوارد</string>
+    <string name="total_outflow">إجمالي الصادر</string>
+    <string name="net_change">صافي التغيير</string>
+    <string name="average_transaction">متوسط المعاملة</string>
+    <string name="transaction_count">عدد المعاملات</string>
+    <string name="largest_transaction">أكبر معاملة</string>
+    <string name="debit">مدين</string>
+    <string name="credit">دائن</string>
+    <string name="reversing_entry">قيد عكسي</string>
+    <string name="system_account">حساب نظام</string>
+    <string name="linked_workers">العمال المرتبطون</string>
+    <string name="linked_projects">المشاريع المرتبطة</string>
+    <string name="no_transactions">لا توجد معاملات</string>
+    <string name="no_journal_entries">لا توجد قيود يومية</string>
+    <string name="no_related_entities">لا توجد كيانات مرتبطة</string>
+    <string name="edit_account">تعديل الحساب</string>
+    <string name="delete_account">حذف الحساب</string>
+    <string name="delete_account_confirm">هل أنت متأكد من حذف هذا الحساب؟ لا يمكن التراجع عن هذا الإجراء.</string>
+    <string name="account_updated">تم تحديث الحساب بنجاح</string>
+    <string name="account_deleted">تم حذف الحساب بنجاح</string>
+    <string name="cannot_delete_system_account">لا يمكن حذف حساب النظام</string>
+    <string name="cannot_delete_account_with_balance">لا يمكن حذف حساب له رصيد</string>
+    <string name="cannot_delete_account_with_pending">لا يمكن حذف حساب له معاملات معلقة</string>
+    
+    <!-- Home Dashboard -->
+    <string name="error_loading_data">حدث خطأ في تحميل البيانات</string>
+    <string name="retry">إعادة المحاولة</string>
+</resources>
